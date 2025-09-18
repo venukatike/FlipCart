@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
   name:'Venu',
-  pure:true,
+  pure:true, // pure pipe
   //standalone:false 
   //making here standalone component false because V.19 made stan alone component default true
 })
