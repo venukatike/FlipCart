@@ -14,7 +14,7 @@ export class ApiData { //Step 1 : create a class
     }
 
     get():Observable<any>{  // Step 7 : write an method with Observable
-     return this.http.get('https://jsonplaceholder.typicode.com/posts');  // Step 8 : return the results
+     return this.http.get('https://localhost:7107/api/Profile');  // Step 8 : return the results
     }
 
 }
